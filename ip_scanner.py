@@ -47,7 +47,6 @@ for i in range(first,second):
         print("Not thread" + ip)
 end = time.time()
 end = end - start
-ping_ip("ping -c1 172.16.114.53","172.16.114.53")
 alive = False
 print("Total Time" + str(end))
 sys.exit()
